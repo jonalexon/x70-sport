@@ -1,1 +1,1135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JETOUR X70 SPORT Ecuador | Grupo Roldán</title>
+<meta name="description" content="JETOUR X70 Sport: SUV familiar de 7 asientos con suspensión trasera Multibrazo, hasta 8 airbags, doble pantalla digital de serie y garantía de 10 años. Respaldo Grupo Roldán en Ecuador.">
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/saira-condensed@latest/latin-600-normal.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/saira-condensed@latest/latin-700-normal.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/saira-condensed@latest/latin-800-normal.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/barlow@latest/latin-400-normal.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/barlow@latest/latin-500-normal.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/barlow@latest/latin-600-normal.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/barlow@latest/latin-700-normal.min.css">
+
+<style>
+:root{
+  --red:#e10613;
+  --red-dark:#b30510;
+  --bg-dark:#0b0c10;
+  --bg-dark-2:#101114;
+  --bg-dark-3:#14161c;
+  --bg-light:#f4f5f7;
+  --txt:#101114;
+  --txt-2:#5d6470;
+  --txt-3:#9aa1ad;
+  --line:#e6e8ec;
+  --line-dark:#22252d;
+  --line-dark-2:#2a2e37;
+  --white:#ffffff;
+  --head-h:64px;
+  --ease:cubic-bezier(.22,1,.36,1);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--head-h) + 90px)}
+body{
+  font-family:'Barlow','Segoe UI',system-ui,sans-serif;
+  font-weight:400;
+  color:var(--txt);
+  background:var(--white);
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--red);color:#fff}
+img{max-width:100%}
+a{color:inherit}
+button{font-family:inherit;cursor:pointer}
+h1,h2,h3{font-family:'Saira Condensed','Arial Narrow',sans-serif;line-height:1.12}
+h1{font-weight:800;font-size:clamp(2rem,4vw,3rem)}
+h2{font-weight:700;font-size:clamp(1.5rem,3vw,2.25rem)}
+h3{font-weight:600;font-size:clamp(1.1rem,2vw,1.4rem)}
+.container{width:min(1120px,92%);margin:0 auto}
+.section{padding:64px 0}
+.section-light{background:var(--bg-light)}
+.section-dark{
+  background:
+    radial-gradient(700px 380px at 85% 0%, rgba(225,6,19,.14), transparent 62%),
+    radial-gradient(560px 340px at 6% 100%, rgba(225,6,19,.08), transparent 60%),
+    var(--bg-dark);
+  color:#fff;
+}
+.sec-head{max-width:760px;margin-bottom:34px}
+.eyebrow{
+  display:inline-block;font-family:'Saira Condensed',sans-serif;font-weight:700;
+  letter-spacing:.14em;text-transform:uppercase;font-size:.85rem;color:var(--red);
+  margin-bottom:10px;
+}
+.sec-sub{color:var(--txt-2);margin-top:10px}
+.section-dark .sec-sub{color:var(--txt-3)}
+
+/* ===== Topbar ===== */
+.topbar{
+  background:var(--red);color:#fff;
+  font-family:'Saira Condensed',sans-serif;font-weight:600;
+  font-size:.92rem;letter-spacing:.04em;
+  overflow:hidden;white-space:nowrap;
+}
+.topbar-in{padding:8px 0;text-align:center}
+.topbar b{font-weight:800}
+.topbar .dot{opacity:.65;padding:0 8px}
+
+/* ===== Header ===== */
+.site-header{
+  position:sticky;top:0;z-index:80;
+  background:var(--bg-dark);
+  border-bottom:1px solid #1e2127;
+  transition:box-shadow .3s ease;
+}
+.site-header.scrolled{box-shadow:0 10px 28px rgba(0,0,0,.5)}
+.header-in{height:var(--head-h);display:flex;align-items:center;justify-content:space-between;gap:14px}
+.brand{display:flex;align-items:baseline;gap:8px;text-decoration:none;flex-wrap:wrap}
+.brand-mark{font-family:'Saira Condensed',sans-serif;font-weight:800;font-size:1.35rem;color:#fff;letter-spacing:.05em}
+.brand-model{font-family:'Saira Condensed',sans-serif;font-weight:800;font-size:1.35rem;color:var(--red);letter-spacing:.05em}
+.brand-country{font-size:.72rem;color:var(--txt-3);text-transform:uppercase;letter-spacing:.18em}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  min-height:44px;padding:10px 22px;border-radius:10px;
+  font-family:'Saira Condensed',sans-serif;font-weight:700;font-size:1.02rem;
+  letter-spacing:.05em;text-transform:uppercase;text-decoration:none;
+  border:1px solid transparent;
+  transition:background .3s var(--ease),transform .3s var(--ease),box-shadow .3s var(--ease),border-color .3s;
+}
+.btn:active{transform:scale(.96)}
+.btn-red{background:var(--red);color:#fff}
+.btn-red:hover{background:var(--red-dark)}
+.btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.3)}
+.btn-ghost:hover{border-color:#fff}
+.btn-sm{min-height:40px;padding:8px 16px;font-size:.92rem}
+.btn:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+
+/* ===== Hero ===== */
+.hero{
+  position:relative;overflow:hidden;color:#fff;
+  background:
+    radial-gradient(720px 420px at 82% 12%, rgba(225,6,19,.28), transparent 62%),
+    radial-gradient(560px 380px at 8% 92%, rgba(225,6,19,.13), transparent 60%),
+    var(--bg-dark);
+  padding:72px 0 0;
+}
+.hero-ring{position:absolute;border:1px solid rgba(225,6,19,.22);border-radius:50%;pointer-events:none}
+.hero-ring.r1{width:420px;height:420px;right:-140px;top:-140px}
+.hero-ring.r2{width:280px;height:280px;right:-60px;top:-60px;border-color:rgba(255,255,255,.08)}
+.hero-ring.r3{width:340px;height:340px;left:-160px;bottom:-160px;border-color:rgba(255,255,255,.06)}
+.hero-grid{position:relative;z-index:2;max-width:820px}
+.hero h1{font-size:clamp(2.4rem,5.2vw,4rem);letter-spacing:.01em}
+.hero h1 .red{color:var(--red)}
+.hero-sub{color:#c8cdd6;font-size:clamp(1.02rem,1.6vw,1.2rem);margin:16px 0 22px;max-width:640px}
+.badge-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:28px}
+.badge{
+  display:inline-flex;align-items:center;gap:6px;
+  background:rgba(225,6,19,.09);color:var(--red);
+  border:1px solid rgba(225,6,19,.32);
+  border-radius:999px;padding:7px 14px;
+  font-weight:600;font-size:.88rem;white-space:nowrap;
+}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:52px}
+
+/* Beam */
+.beam-track{position:relative;height:3px;background:rgba(255,255,255,.06);overflow:hidden}
+.beam{
+  position:absolute;top:0;left:-45%;width:45%;height:100%;
+  background:linear-gradient(90deg,transparent,var(--red),transparent);
+  animation:beam 3.8s linear infinite;
+}
+@keyframes beam{to{left:110%}}
+
+/* ===== Stats ===== */
+.stats-wrap{background:var(--bg-dark);padding:28px 0 64px;position:relative}
+.stats{
+  display:grid;grid-template-columns:repeat(2,1fr);
+  gap:2px;background:var(--line-dark);
+  border:1px solid var(--line-dark);border-radius:14px;overflow:hidden;
+}
+.stat{background:#0f1116;padding:20px 18px}
+.stat-num{font-family:'Saira Condensed',sans-serif;font-weight:800;font-size:clamp(1.6rem,3vw,2.2rem);color:#fff;display:flex;align-items:baseline;gap:6px}
+.stat-unit{color:var(--red);font-size:.62em;font-weight:700}
+.stat-label{color:var(--txt-3);font-size:.85rem;margin-top:2px}
+
+/* ===== Facts ===== */
+.facts-grid{display:grid;grid-template-columns:1fr;gap:24px}
+.fact{
+  position:relative;
+  background:
+    radial-gradient(220px 160px at 90% 0%, rgba(225,6,19,.09), transparent 70%),
+    var(--bg-dark-3);
+  border:1px solid var(--line-dark-2);
+  border-left:4px solid var(--red);
+  border-radius:14px;padding:20px;
+  transition:opacity .35s ease,border-color .35s ease,box-shadow .35s ease,transform .3s var(--ease);
+}
+.fact:hover{transform:translateY(-4px);box-shadow:0 16px 34px rgba(0,0,0,.45);border-left-color:#ff2431}
+.fact-ico{
+  width:46px;height:46px;border-radius:50%;
+  background:rgba(225,6,19,.15);
+  display:grid;place-items:center;font-size:1.25rem;margin-bottom:14px;
+}
+.fact h3{color:#fff;font-weight:700;margin-bottom:8px}
+.fact p{color:var(--txt-3);font-size:.95rem}
+.facts-note{color:var(--txt-3);font-size:.85rem;margin-top:22px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+
+/* ===== Version on/off ===== */
+.version-on{opacity:1;border-color:rgba(225,6,19,.4)}
+.version-off{opacity:.35;pointer-events:none}
+.fact.version-on{border-color:var(--line-dark-2);border-left-color:var(--red)}
+.v-anim{transition:opacity .35s ease,border-color .35s ease,box-shadow .35s ease}
+
+/* ===== Sticky version selector ===== */
+.vtab-sticky{
+  position:sticky;top:calc(var(--head-h) + 8px);z-index:50;
+  margin:0 0 30px;
+}
+.vtab{
+  background:var(--bg-dark-3);
+  border:1px solid var(--line-dark-2);
+  border-radius:14px;padding:8px;
+  display:flex;gap:8px;overflow-x:auto;
+  scrollbar-width:none;
+  box-shadow:0 12px 30px rgba(10,11,16,.22);
+}
+.vtab::-webkit-scrollbar{display:none}
+.vtab-btn{
+  flex:1;min-width:150px;min-height:48px;
+  background:transparent;color:var(--txt-3);
+  border:1px solid var(--line-dark-2);border-radius:10px;
+  font-family:'Saira Condensed',sans-serif;font-weight:700;font-size:1.02rem;
+  letter-spacing:.05em;white-space:nowrap;
+  transition:background .3s var(--ease),color .3s,border-color .3s,transform .3s var(--ease),box-shadow .3s var(--ease);
+}
+.vtab-btn small{display:block;font-family:'Barlow',sans-serif;font-weight:500;font-size:.68rem;letter-spacing:0;text-transform:none;opacity:.8}
+.vtab-btn:hover{color:#fff;border-color:#3a3f4a}
+.vtab-btn.active{
+  background:var(--red);color:#fff;border-color:var(--red);
+  transform:scale(1.02);
+  box-shadow:0 8px 22px rgba(225,6,19,.4);
+}
+.vtab-btn:active{transform:scale(.96)}
+
+/* ===== Accordions ===== */
+.acc{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;margin-bottom:14px}
+.acc-head{
+  width:100%;display:flex;align-items:center;gap:14px;
+  background:var(--bg-dark-3);color:#fff;border:0;
+  padding:12px 16px;min-height:56px;text-align:left;
+  font-family:'Saira Condensed',sans-serif;font-weight:600;
+  font-size:clamp(1.1rem,2vw,1.4rem);letter-spacing:.02em;
+  transition:background .3s;
+}
+.acc-head:hover{background:#191c24}
+.acc-ico{font-size:1.2rem}
+.acc-arrow{
+  margin-left:auto;color:var(--red);font-size:1rem;
+  transition:transform .35s var(--ease);
+}
+.acc.open .acc-arrow{transform:rotate(180deg)}
+.acc-body{
+  max-height:0;opacity:0;overflow:hidden;
+  transform:translateY(-6px);
+  transition:max-height .4s ease,opacity .35s ease,transform .35s ease;
+}
+.acc.open .acc-body{opacity:1;transform:none}
+.acc-inner{padding:20px 16px}
+.fgrid{display:grid;grid-template-columns:1fr;gap:14px}
+
+.fcard{
+  background:#fff;border:1px solid var(--line);border-radius:12px;
+  padding:18px;display:flex;flex-direction:column;gap:8px;
+  transition:opacity .35s ease,border-color .35s ease,box-shadow .35s ease;
+}
+.fcard.version-on{border-color:rgba(225,6,19,.35);box-shadow:0 3px 14px rgba(225,6,19,.06)}
+.fcard h3{color:var(--txt)}
+.fcard p{color:var(--txt-2);font-size:.94rem}
+.fcard .lead{color:var(--txt);font-weight:500}
+.fcard-tag{
+  align-self:flex-start;
+  font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--red);background:rgba(225,6,19,.09);
+  border-radius:6px;padding:3px 8px;
+}
+.off-badge{
+  display:none;align-self:flex-start;
+  font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--txt-3);background:#eef0f3;border:1px solid var(--line);
+  border-radius:6px;padding:3px 8px;
+}
+.version-off .off-badge{display:inline-block}
+.meaning{
+  border-left:3px solid var(--red);
+  background:#fafafb;border-radius:0 8px 8px 0;
+  padding:8px 12px;font-size:.9rem;color:var(--txt-2);
+}
+.meaning b{color:var(--txt)}
+
+/* ===== Color swatches ===== */
+.swatches{display:flex;flex-wrap:wrap;gap:14px;margin-top:6px}
+.swatch{display:flex;align-items:center;gap:8px;font-size:.88rem;color:var(--txt-2)}
+.swatch i{
+  width:26px;height:26px;border-radius:50%;
+  border:2px solid var(--line);display:inline-block;
+  box-shadow:inset 0 0 0 1px rgba(0,0,0,.06);
+}
+
+/* ===== Table ===== */
+.table-wrap{overflow-x:auto;scrollbar-width:none;border:1px solid var(--line);border-radius:14px;background:#fff}
+.table-wrap::-webkit-scrollbar{display:none}
+table{border-collapse:collapse;width:100%;min-width:640px;font-size:.92rem}
+th,td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+thead th{
+  font-family:'Saira Condensed',sans-serif;font-weight:700;font-size:1rem;
+  background:var(--bg-dark-3);color:#fff;letter-spacing:.04em;
+}
+tbody tr:last-child td{border-bottom:0}
+tbody th{background:#fafafb;font-weight:600;color:var(--txt);white-space:nowrap}
+td.col-on{background:rgba(225,6,19,.06);font-weight:600}
+th.col-on{background:var(--red);color:#fff}
+.tbl-note{font-size:.82rem;color:var(--txt-2);margin-top:10px}
+
+/* ===== Profiles ===== */
+.profiles-grid{display:grid;grid-template-columns:1fr;gap:24px}
+.profile{
+  background:var(--bg-dark-2);
+  border:1px solid var(--line-dark-2);
+  border-radius:14px;padding:24px;
+  transition:border-color .35s ease,box-shadow .35s ease,transform .3s var(--ease);
+}
+.profile:hover{border-color:rgba(225,6,19,.6);transform:translateY(-4px);box-shadow:0 18px 36px rgba(0,0,0,.45)}
+.profile-ico{
+  width:52px;height:52px;border-radius:50%;
+  background:rgba(225,6,19,.1);
+  display:grid;place-items:center;font-size:1.4rem;margin-bottom:16px;
+}
+.profile .p-ver{
+  display:inline-block;background:var(--red);color:#fff;
+  font-family:'Saira Condensed',sans-serif;font-weight:700;
+  border-radius:7px;padding:4px 12px;font-size:.95rem;letter-spacing:.06em;
+  margin-bottom:10px;
+}
+.profile h3{color:#fff;font-weight:700;margin-bottom:8px}
+.profile .p-tag{color:var(--red);font-weight:600;font-size:.9rem;margin-bottom:10px}
+.profile p{color:var(--txt-3);font-size:.95rem;margin-bottom:14px}
+.bonds{list-style:none;display:flex;flex-direction:column;gap:10px}
+.bonds li{color:#cfd4dd;font-size:.92rem;padding-left:20px;position:relative}
+.bonds li::before{
+  content:"";position:absolute;left:0;top:7px;
+  width:9px;height:9px;border-radius:50%;background:var(--red);
+}
+.profiles-note{
+  margin-top:26px;color:var(--txt-3);font-size:.9rem;
+  border:1px dashed var(--line-dark-2);border-radius:12px;padding:14px 18px;
+}
+
+/* ===== Respaldo ===== */
+.support-grid{display:grid;grid-template-columns:1fr;gap:20px}
+.support-card{
+  background:var(--bg-dark-3);border:1px solid var(--line-dark-2);
+  border-radius:14px;padding:24px;
+  transition:border-color .35s,transform .3s var(--ease),box-shadow .35s;
+}
+.support-card:hover{border-color:rgba(225,6,19,.55);transform:translateY(-3px);box-shadow:0 14px 30px rgba(0,0,0,.4)}
+.support-card .s-ico{font-size:1.5rem;margin-bottom:12px;display:inline-block}
+.support-card h3{color:#fff;font-weight:700;margin-bottom:8px}
+.support-card p{color:var(--txt-3);font-size:.94rem}
+.support-list{list-style:none;margin-top:12px;display:flex;flex-direction:column;gap:8px}
+.support-list li{color:#cfd4dd;font-size:.92rem;padding-left:20px;position:relative}
+.support-list li::before{content:"";position:absolute;left:0;top:7px;width:9px;height:9px;border-radius:50%;background:var(--red)}
+.cta-band{
+  margin-top:44px;text-align:center;
+  border:1px solid var(--line-dark-2);border-radius:18px;
+  padding:40px 22px;
+  background:
+    radial-gradient(420px 200px at 50% 0%, rgba(225,6,19,.2), transparent 70%),
+    var(--bg-dark-3);
+}
+.cta-band h3{color:#fff;font-size:clamp(1.4rem,2.6vw,2rem);font-weight:700;margin-bottom:8px}
+.cta-band p{color:var(--txt-3);margin-bottom:20px}
+
+/* ===== Footer ===== */
+.site-footer{background:#07080b;color:var(--txt-3);padding:44px 0 34px;border-top:1px solid #15171d}
+.footer-grid{display:flex;flex-direction:column;gap:22px}
+.f-brand .brand-mark{font-size:1.5rem}
+.f-brand p{font-size:.9rem;margin-top:10px;max-width:420px}
+.f-brands{display:flex;flex-wrap:wrap;gap:8px}
+.f-brands span{
+  font-family:'Saira Condensed',sans-serif;font-weight:600;letter-spacing:.06em;
+  font-size:.85rem;color:var(--txt-3);
+  border:1px solid var(--line-dark-2);border-radius:8px;padding:6px 12px;
+}
+.f-line{border:0;border-top:1px solid #15171d;margin:26px 0 18px}
+.f-legal{font-size:.78rem;line-height:1.7}
+
+/* ===== Responsive ===== */
+@media (min-width:640px){
+  .stats{grid-template-columns:repeat(4,1fr)}
+  .fgrid{grid-template-columns:repeat(2,1fr)}
+  .support-grid{grid-template-columns:repeat(2,1fr)}
+  .profiles-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media (min-width:980px){
+  .facts-grid{grid-template-columns:repeat(3,1fr)}
+  .profiles-grid{grid-template-columns:repeat(3,1fr)}
+  .support-grid{grid-template-columns:repeat(4,1fr)}
+  .footer-grid{flex-direction:row;justify-content:space-between;align-items:flex-start}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+
+<!-- ===== TOPBAR ===== -->
+<div class="topbar">
+  <div class="topbar-in container">
+    <b>Grupo Roldán</b><span class="dot">·</span>JETOUR<span class="dot">·</span>JAC<span class="dot">·</span>SANY<span class="dot">·</span>YTO<span class="dot">·</span>Karry<span class="dot">·</span>Textron<span class="dot">·</span>Zongshen<span class="dot">·</span><b>+50 años</b><span class="dot">·</span><b>27 concesionarios</b>
+  </div>
+</div>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-in">
+    <a class="brand" href="#top" aria-label="JETOUR X70 Sport Ecuador">
+      <span class="brand-mark">JETOUR</span>
+      <span class="brand-model">X70 SPORT</span>
+      <span class="brand-country">Ecuador</span>
+    </a>
+    <a class="btn btn-red btn-sm" href="#contacto">Cotiza la tuya</a>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <span class="hero-ring r1" aria-hidden="true"></span>
+  <span class="hero-ring r2" aria-hidden="true"></span>
+  <span class="hero-ring r3" aria-hidden="true"></span>
+  <div class="container hero-grid">
+    <span class="eyebrow">SUV familiar · 7 asientos · Ecuador</span>
+    <h1>JETOUR <span class="red">X70 SPORT</span></h1>
+    <p class="hero-sub">La ingeniería de los SUV de segmentos superiores, pensada para tu familia: suspensión de lujo, seguridad de clase mundial y un ecosistema digital completo desde la versión de entrada.</p>
+    <div class="badge-row">
+      <span class="badge">🏁 1.5 Turbo · 160 HP</span>
+      <span class="badge">🔧 Suspensión trasera Multibrazo</span>
+      <span class="badge">🛡️ Hasta 8 airbags</span>
+      <span class="badge">🛠️ Garantía 10 años / 120.000 km</span>
+    </div>
+    <div class="hero-cta">
+      <a class="btn btn-red" href="#caracteristicas">Explorar características</a>
+      <a class="btn btn-ghost" href="#perfiles">¿Para quién es?</a>
+    </div>
+  </div>
+  <div class="beam-track" aria-hidden="true"><span class="beam"></span></div>
+</section>
+
+<!-- ===== STATS ===== -->
+<div class="stats-wrap">
+  <div class="container">
+    <div class="stats">
+      <div class="stat"><div class="stat-num">160<span class="stat-unit">HP</span></div><div class="stat-label">Potencia del motor 1.5 Turbo</div></div>
+      <div class="stat"><div class="stat-num">255<span class="stat-unit">NM</span></div><div class="stat-label">Torque desde bajas revoluciones</div></div>
+      <div class="stat"><div class="stat-num">7<span class="stat-unit">puestos</span></div><div class="stat-label">Configuración 2 + 3 + 2</div></div>
+      <div class="stat"><div class="stat-num">1.260<span class="stat-unit">L</span></div><div class="stat-label">Maletero con filas abatidas</div></div>
+      <div class="stat"><div class="stat-num">8<span class="stat-unit">airbags</span></div><div class="stat-label">En la versión LIMITED-AT</div></div>
+      <div class="stat"><div class="stat-num">10<span class="stat-unit">años</span></div><div class="stat-label">Garantía o 120.000 km</div></div>
+      <div class="stat"><div class="stat-num">12.3<span class="stat-unit">"</span></div><div class="stat-label">Panel digital de serie</div></div>
+      <div class="stat"><div class="stat-num">8.1<span class="stat-unit">L/100km</span></div><div class="stat-label">Consumo mixto reportado</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== PRESENTACIÓN ===== -->
+<section class="section section-light">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow">El modelo</span>
+      <h2>Un nuevo estándar para la familia moderna</h2>
+    </div>
+    <div style="max-width:820px;display:flex;flex-direction:column;gap:18px;color:var(--txt-2)">
+      <p>El <b style="color:var(--txt)">Jetour X70 Sport</b> es el SUV de 7 asientos creado para las familias que se niegan a elegir entre espacio, seguridad y diseño. Es el modelo inaugural de la marca Jetour y llega a Ecuador para demostrar que la experiencia de manejo de un vehículo de categoría superior ya no es privilegio de unos pocos: está pensada para quienes llevan a los suyos todos los días y merecen lo mejor en cada trayecto.</p>
+      <p>Tres fortalezas definen su carácter: un andar suave y estable, propio de vehículos de segmentos muy superiores; un nivel de protección que cuida a cada ocupante, fila por fila; y una experiencia digital que se disfruta desde el primer instante, sin importar la versión que elijas. Aquí no existen versiones “pobres”: existe un SUV completo, honesto y generoso con tu familia.</p>
+      <p>El X70 Sport no es solo un medio de transporte. Es la tranquilidad de saber que cada viaje —al colegio, a la costa, a la sierra o un fin de semana largo— se vive con confort, confianza y ese orgullo silencioso de haber elegido bien.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DATOS CURIOSOS ===== -->
+<section class="section section-dark" id="detalles">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow">Lo que nadie te cuenta</span>
+      <h2>Detalles que marcan la diferencia</h2>
+      <p class="sec-sub">Diez razones por las que el X70 Sport se siente mucho más de lo que esperas. El equipamiento puede variar según versión: usa el selector de la siguiente sección y observa cómo se iluminan.</p>
+    </div>
+    <div class="facts-grid">
+      <article class="fact v-anim" data-v="full lmt lat">
+        <div class="fact-ico">🔧</div>
+        <h3>Suspensión trasera Multibrazo</h3>
+        <p>La misma tecnología que usan los SUV premium: cada rueda trabaja de forma independiente para absorber baches y mantener la carrocería estable en curvas.</p>
+      </article>
+      <article class="fact v-anim" data-v="full lmt lat">
+        <div class="fact-ico">🖥️</div>
+        <h3>Doble pantalla en TODAS las versiones</h3>
+        <p>Panel digital de 12.3" y pantalla multimedia de 10.25" desde la versión de entrada. Mientras otros las reservan para el tope de gama, aquí son de serie.</p>
+      </article>
+      <article class="fact v-anim" data-v="lat">
+        <div class="fact-ico">🛡️</div>
+        <h3>Hasta 8 airbags</h3>
+        <p>La versión LIMITED-AT supera en número de airbags a varios SUV premium: frontales, laterales, de cortina y de rodilla para una protección integral.</p>
+      </article>
+      <article class="fact v-anim" data-v="full lmt lat">
+        <div class="fact-ico">🛠️</div>
+        <h3>Garantía de 10 años</h3>
+        <p>120.000 km de cobertura: más del triple de la garantía tradicional del mercado. Es una declaración de confianza absoluta en la ingeniería del vehículo.</p>
+      </article>
+      <article class="fact v-anim" data-v="lat">
+        <div class="fact-ico">⚡</div>
+        <h3>Transmisión DCT de doble embrague</h3>
+        <p>Cambios en milisegundos con modos Sport y Economic. Es la misma filosofía de cajas que usan los autos deportivos, aplicada a un SUV familiar.</p>
+      </article>
+      <article class="fact v-anim" data-v="lmt lat">
+        <div class="fact-ico">🚁</div>
+        <h3>Cámara panorámica 360° HD</h3>
+        <p>Una vista aérea tipo dron alrededor del vehículo para estacionar un SUV de 4,72 metros como un experto, incluso en las calles más estrechas.</p>
+      </article>
+      <article class="fact v-anim" data-v="lmt lat">
+        <div class="fact-ico">☀️</div>
+        <h3>Sunroof panorámico</h3>
+        <p>Luz natural para las tres filas y una sensación de amplitud extraordinaria que transforma cada viaje en una experiencia más placentera.</p>
+      </article>
+      <article class="fact v-anim" data-v="full lmt lat">
+        <div class="fact-ico">🧳</div>
+        <h3>Maletero de 1.260 litros</h3>
+        <p>Con las terceras filas abatidas cabe todo: maletas de viaje, carriolas, bicicletas y las compras del mes. Supera a varios SUV premium de 7 asientos.</p>
+      </article>
+      <article class="fact v-anim" data-v="full lmt lat">
+        <div class="fact-ico">⛽</div>
+        <h3>Hasta 800 km de autonomía</h3>
+        <p>Tanque de 55 litros y un consumo de 6.9 L/100 km en carretera: Quito–Guayaquil y más, sin vivir pendiente de la gasolinera.</p>
+      </article>
+      <article class="fact v-anim" data-v="full lmt lat">
+        <div class="fact-ico">🌱</div>
+        <h3>Normativa Euro 6B</h3>
+        <p>Cumple uno de los estándares de emisiones más estrictos del mundo, apoyado en inyección electrónica multipunto y dirección asistida eléctrica.</p>
+      </article>
+    </div>
+    <p class="facts-note">💡 Las tarjetas se atenúan o iluminan según la versión seleccionada en el explorador de características.</p>
+  </div>
+</section>
+
+<!-- ===== CARACTERÍSTICAS ===== -->
+<section class="section section-light" id="caracteristicas">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow">Explorador interactivo</span>
+      <h2>Características por versión</h2>
+      <p class="sec-sub">Elige tu versión y descubre exactamente qué incluye. Las tarjetas atenuadas indican equipamiento no disponible en esa configuración.</p>
+    </div>
+
+    <!-- Selector sticky -->
+    <div class="vtab-sticky">
+      <div class="vtab" role="group" aria-label="Selector de versiones">
+        <button class="vtab-btn" data-version="full" type="button">FULL-MT<small>Entrada inteligente</small></button>
+        <button class="vtab-btn" data-version="lmt" type="button">LIMITED-MT<small>Manual equipado</small></button>
+        <button class="vtab-btn" data-version="lat" type="button">LIMITED-AT<small>Tope de gama</small></button>
+      </div>
+    </div>
+
+    <!-- 1. Diseño exterior -->
+    <details-less class="acc open" style="display:block">
+      <button class="acc-head" type="button" aria-expanded="true">
+        <span class="acc-ico">🚙</span> Diseño exterior
+        <span class="acc-arrow">▼</span>
+      </button>
+      <div class="acc-body">
+        <div class="acc-inner">
+          <div class="fgrid">
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Frente con presencia premium</h3>
+              <p class="lead">Muchos SUV familiares se ven genéricos; el X70 Sport, no.</p>
+              <p>La parrilla poligonal con detalles cromados y las luces diurnas DRL en LED construyen una presencia elegante, moderna y refinada, muy por encima de lo habitual en su segmento.</p>
+              <p class="meaning"><b>Esto significa que</b> llegas a cualquier lugar con un vehículo que se percibe más costoso de lo que es.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full">
+              <span class="off-badge">No incluido en esta versión</span>
+              <h3>Rines de 18"</h3>
+              <p>Neumáticos 235/60 R18 con perfil alto que absorben mejor baches y calles empedradas, una ventaja real en la vía ecuatoriana.</p>
+              <p class="meaning"><b>Esto significa que</b> más confort diario y llantas menos expuestas a los huecos.</p>
+            </article>
+            <article class="fcard v-anim" data-v="lmt lat">
+              <span class="off-badge">No incluido en esta versión</span>
+              <h3>Rines de 20" a dos tonos</h3>
+              <p>Neumáticos anchos 255/45 R20 que aportan mayor apoyo en curvas y una actitud deportiva inconfundible.</p>
+              <p class="meaning"><b>Esto significa que</b> más agarre, más estabilidad y una imagen que roba miradas.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>4 colores exclusivos</h3>
+              <p>Elige el que va con tu estilo:</p>
+              <div class="swatches">
+                <span class="swatch"><i style="background:#ffffff"></i>Blanco</span>
+                <span class="swatch"><i style="background:#101114"></i>Negro</span>
+                <span class="swatch"><i style="background:#1f4d8c"></i>Azul Futuro</span>
+                <span class="swatch"><i style="background:#6b4a3a"></i>Marrón Ahumado</span>
+              </div>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Largueros de techo + antena aleta de tiburón</h3>
+              <p>Listos para portaequipajes, bicicletas o portamaletas, con un remate aerodinámico que estiliza el perfil del vehículo.</p>
+              <p class="meaning"><b>Esto significa que</b> tu aventura de fin de semana siempre tiene espacio extra.</p>
+            </article>
+            <article class="fcard v-anim" data-v="lmt lat">
+              <span class="off-badge">No incluido en esta versión</span>
+              <h3>Luces principales automáticas</h3>
+              <p>Los sensores encienden las luces al anochecer o al entrar en un túnel, sin que tengas que pensarlo.</p>
+              <p class="meaning"><b>Esto significa que</b> siempre viajas iluminado, incluso si se te olvida.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </details-less>
+
+    <!-- 2. Cabina y confort -->
+    <div class="acc">
+      <button class="acc-head" type="button" aria-expanded="false">
+        <span class="acc-ico">🛋️</span> Cabina y confort
+        <span class="acc-arrow">▼</span>
+      </button>
+      <div class="acc-body">
+        <div class="acc-inner">
+          <div class="fgrid">
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Llave inteligente</h3>
+              <p>Incluida de serie en toda la gama, para un uso más práctico y seguro en el día a día.</p>
+            </article>
+            <article class="fcard v-anim" data-v="lmt lat">
+              <span class="off-badge">No incluido en esta versión</span>
+              <h3>Ingreso y encendido sin llave</h3>
+              <p class="lead">Llegar con las manos ocupadas y buscar la llave es cosa del pasado.</p>
+              <p>Te acercas, abres la puerta y enciendes el motor sin sacar la llave del bolsillo.</p>
+              <p class="meaning"><b>Esto significa que</b> subes, arrancas y te vas: cero fricción, máximo confort.</p>
+            </article>
+            <article class="fcard v-anim" data-v="lmt lat">
+              <span class="off-badge">No incluido en esta versión</span>
+              <h3>Botón de encendido</h3>
+              <p>Un solo toque para despertar los 160 HP del motor turbo. Adiós a la llave tradicional.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Volante de cuero, ajustable y multifunción</h3>
+              <p>Controla el audio, el teléfono y el control de crucero sin soltar el volante, con una empuñadura de tacto premium.</p>
+              <p class="meaning"><b>Esto significa que</b> conduces más concentrado y más cómodo.</p>
+            </article>
+            <article class="fcard v-anim" data-v="lmt lat">
+              <span class="off-badge">No incluido en esta versión</span>
+              <h3>Vidrios “One Touch”</h3>
+              <p>Sube o baja los vidrios con un solo toque, sin mantener presionado el botón.</p>
+            </article>
+            <article class="fcard v-anim" data-v="lmt lat">
+              <span class="off-badge">No incluido en esta versión</span>
+              <h3>Sunroof panorámico</h3>
+              <p>El techo se abre a la luz natural y la cabina se siente mucho más amplia para las tres filas.</p>
+              <p class="meaning"><b>Esto significa que</b> viajes más luminosos y pasajeros más felices.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>4 puertos USB (2 normales + 2 Tipo C)</h3>
+              <p>Energía suficiente para los celulares y tablets de toda la familia, sin peleas por el enchufe.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Aire acondicionado con salidas traseras</h3>
+              <p>El confort climático llega hasta las filas posteriores: nadie viaja en la “zona caliente”.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Control de crucero + función Autohold</h3>
+              <p>En carretera, el control de crucero mantiene la velocidad por ti. En el tráfico, Autohold sostiene el freno en los semáforos aunque sueltes el pedal.</p>
+              <p class="meaning"><b>Esto significa que</b> menos fatiga en viajes largos y cero estrés en el tranque.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Retrovisores eléctricos y cobertor de equipaje</h3>
+              <p>Ajuste cómodo desde el mando y maletero siempre ordenado y protegido a la vista.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Tecnología y conectividad -->
+    <div class="acc">
+      <button class="acc-head" type="button" aria-expanded="false">
+        <span class="acc-ico">📱</span> Tecnología y conectividad
+        <span class="acc-arrow">▼</span>
+      </button>
+      <div class="acc-body">
+        <div class="acc-inner">
+          <div class="fgrid">
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <span class="fcard-tag">De serie en todas las versiones</span>
+              <h3>Panel de instrumentos 100% digital de 12.3"</h3>
+              <p class="lead">Mientras muchos rivales de entrada conservan tableros analógicos con pantallas diminutas, el X70 Sport democratiza el cockpit digital.</p>
+              <p>Un tablero completamente digital y personalizable: eliges diseños y visualizaciones según tu gusto y tu conducción.</p>
+              <p class="meaning"><b>Esto significa que</b> información clara, moderna y a tu medida desde la versión más accesible.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <span class="fcard-tag">De serie en todas las versiones</span>
+              <h3>Pantalla multimedia de 10.25"</h3>
+              <p>El centro de mando del vehículo: nítida, rápida y al alcance de la mano, sin pagar de más por ella.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Apple CarPlay y Android Auto</h3>
+              <p>Tu teléfono integrado por completo: navegación, música, llamadas y mensajes directamente en la pantalla central.</p>
+              <p class="meaning"><b>Esto significa que</b> tu mundo digital viaja contigo, sin distracciones.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Sistema de sonido con 6 parlantes</h3>
+              <p>Una experiencia acústica envolvente para disfrutar cada playlist en familia, en todas las versiones.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. Seguridad -->
+    <div class="acc">
+      <button class="acc-head" type="button" aria-expanded="false">
+        <span class="acc-ico">🛡️</span> Seguridad integral
+        <span class="acc-arrow">▼</span>
+      </button>
+      <div class="acc-body">
+        <div class="acc-inner">
+          <div class="fgrid">
+            <article class="fcard v-anim" data-v="full">
+              <span class="off-badge">No incluido en esta versión</span>
+              <h3>2 airbags frontales</h3>
+              <p>Protección frontal para conductor y copiloto como dotación de entrada de la gama.</p>
+            </article>
+            <article class="fcard v-anim" data-v="lmt">
+              <span class="off-badge">No incluido en esta versión</span>
+              <h3>6 airbags</h3>
+              <p>Frontales, laterales y de cortina: la protección se extiende también a los pasajeros de las filas traseras.</p>
+            </article>
+            <article class="fcard v-anim" data-v="lat">
+              <span class="off-badge">No incluido en esta versión</span>
+              <h3>8 airbags: protección de clase mundial</h3>
+              <p class="lead">La mayoría de SUV del segmento ofrecen apenas 2 o 4 airbags, dejando vulnerables a los pasajeros traseros ante un impacto lateral.</p>
+              <p>El LIMITED-AT suma frontales, laterales, de cortina y de rodilla: cada ocupante tiene su propia “almohada de aire”.</p>
+              <p class="meaning"><b>Esto significa que</b> llevas a tu familia con un nivel de protección que supera incluso a SUV premium reconocidos.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <span class="fcard-tag">En todas las versiones</span>
+              <h3>Frenado inteligente: ABS + EBD + EBA</h3>
+              <p><b>ABS</b> (Sistema de Frenos Antibloqueo): evita que las ruedas se bloqueen al frenar fuerte — ejemplo: piso mojado y aún puedes dirigir el auto mientras frenas.<br>
+              <b>EBD</b> (Distribución Electrónica de Frenado): reparte la fuerza entre las ruedas según la carga — con 7 pasajeros a bordo, frena igual de parejo.<br>
+              <b>EBA</b> (Asistencia de Frenado de Emergencia): detecta una frenada de pánico y aplica la máxima presión por ti.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <span class="fcard-tag">En todas las versiones</span>
+              <h3>TCS/ESC + HAC</h3>
+              <p><b>TCS/ESC</b> (Control de Tracción y Estabilidad): corrige derrapes en curvas o superficies resbaladizas antes de que pasen a mayores.<br>
+              <b>HAC</b> (Asistente de Arranque en Pendiente): sostiene el freno unos segundos en las cuestas para que arranques sin retroceder. Ideal en Quito.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>TPMS — Monitor de Presión de Neumáticos</h3>
+              <p>Vigila la presión de cada llanta en tiempo real y te alerta ante cualquier anomalía, como una pérdida lenta en carretera.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Anclajes ISOFIX</h3>
+              <p>Fijación firme y estandarizada para las sillas de bebé en las plazas traseras: instalación segura, sin improvisaciones.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>EMMO — Sistema Antirrobo Electrónico de Motor</h3>
+              <p>Inmoviliza el vehículo si alguien intenta encenderlo sin la llave autorizada. Tu X70 solo arranca contigo.</p>
+            </article>
+            <article class="fcard v-anim" data-v="lmt lat">
+              <span class="off-badge">No incluido en esta versión</span>
+              <h3>Cámara panorámica 360° HD</h3>
+              <p class="lead">Estacionar un SUV de casi 4,75 m en calles estrechas suele ser un dolor de cabeza.</p>
+              <p>El sistema genera una vista aérea en alta definición alrededor del vehículo: ves bordes, postes y bordillos como si un dron te filmara desde arriba.</p>
+              <p class="meaning"><b>Esto significa que</b> adiós a los golpes de parqueo y al estrés en espacios reducidos.</p>
+            </article>
+            <article class="fcard v-anim" data-v="lmt lat">
+              <span class="off-badge">No incluido en esta versión</span>
+              <h3>Punto ciego + advertencia de cambio de carril</h3>
+              <p>Un indicador visual en los espejos te avisa si hay un vehículo en tu ángulo muerto, y el sistema te alerta si te sales del carril sin señalizar.</p>
+              <p class="meaning"><b>Esto significa que</b> un segundo par de ojos cuidando tus cambios de carril.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Sensores de parqueo posteriores</h3>
+              <p>Alertas sonoras al acercarte a obstáculos traseros, de serie en toda la gama.</p>
+            </article>
+            <article class="fcard v-anim" data-v="lat">
+              <span class="off-badge">No incluido en esta versión</span>
+              <h3>Sensores de parqueo frontales</h3>
+              <p>Cobertura completa adelante y atrás para maniobras milimétricas en la ciudad.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Frenos de disco ventilados delanteros</h3>
+              <p>Disipan mejor el calor y evitan la fatiga del frenado en descensos prolongados, como bajar de la sierra hacia la costa.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. Motor y transmisión -->
+    <div class="acc">
+      <button class="acc-head" type="button" aria-expanded="false">
+        <span class="acc-ico">⚙️</span> Motor y transmisión
+        <span class="acc-arrow">▼</span>
+      </button>
+      <div class="acc-body">
+        <div class="acc-inner">
+          <div class="fgrid">
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <span class="fcard-tag">En todas las versiones</span>
+              <h3>Motor 1.5 Turbo Intercooler · 160 HP · 255 NM</h3>
+              <p class="lead">Los SUV de 7 asientos suelen sentirse lentos y “ahogados” cuando van cargados con pasajeros y equipaje.</p>
+              <p>El turbo empuja más aire al motor y el intercooler lo enfría para hacerlo más denso y potente. El torque máximo aparece desde apenas 1.750 rpm.</p>
+              <p class="meaning"><b>Esto significa que</b> respuesta inmediata al acelerador: subes cuestas con 7 personas a bordo y adelantas en carretera con total seguridad.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt">
+              <span class="off-badge">No incluido en esta versión</span>
+              <h3>Caja manual de 6 velocidades (6MT)</h3>
+              <p>Relaciones muy bien logradas para el conductor que disfruta del control total y la conexión mecánica con el vehículo.</p>
+            </article>
+            <article class="fcard v-anim" data-v="lat">
+              <span class="off-badge">No incluido en esta versión</span>
+              <h3>Transmisión DCT de doble embrague (6DCT)</h3>
+              <p class="lead">Las automáticas tradicionales son lentas al cambiar y consumen más combustible.</p>
+              <p>Es como tener dos cajas en una: mientras usas una marcha, la siguiente ya está precargada, logrando cambios en milisegundos, suaves e instantáneos. Es la misma tecnología que usan los autos deportivos de alto desempeño.</p>
+              <p class="meaning"><b>Esto significa que</b> suavidad absoluta en el tráfico y una eficiencia superior en cada cambio.</p>
+            </article>
+            <article class="fcard v-anim" data-v="lat">
+              <span class="off-badge">No incluido en esta versión</span>
+              <h3>Modos de manejo Sport / Economic</h3>
+              <p>En <b>Sport</b>, acelerador más sensible y dirección más firme para una sensación deportiva. En <b>Economic</b>, respuesta suave para ahorrar combustible.</p>
+              <p class="meaning"><b>Esto significa que</b> un vehículo que se adapta a tu ánimo del día.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Inyección multipunto + normativa Euro 6B</h3>
+              <p>La inyección electrónica multipunto mejora la atomización del combustible y la eficiencia, cumpliendo una de las normas de emisiones más estrictas del mundo.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Dirección EPS (asistencia eléctrica)</h3>
+              <p>Al no depender de una bomba hidráulica, reduce el consumo de combustible y ofrece un tacto ligero en ciudad y firme en carretera.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6. Suspensión y desempeño -->
+    <div class="acc">
+      <button class="acc-head" type="button" aria-expanded="false">
+        <span class="acc-ico">🏞️</span> Suspensión, desempeño y consumo
+        <span class="acc-arrow">▼</span>
+      </button>
+      <div class="acc-body">
+        <div class="acc-inner">
+          <div class="fgrid">
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <span class="fcard-tag">La joya de la ingeniería</span>
+              <h3>Suspensión trasera independiente Multibrazo</h3>
+              <p class="lead">En calles en mal estado o curvas cerradas, muchos SUV familiares se sienten inestables y “brincan”, incomodando a los pasajeros.</p>
+              <p>El esquema de Enlaces Múltiples permite que cada rueda se mueva de forma independiente, absorbiendo baches y manteniendo el contacto con el asfalto. Es una tecnología propia de SUV de lujo: lo común en este rango es encontrar ejes rígidos de concepción antigua.</p>
+              <p class="meaning"><b>Esto significa que</b> menos rebotes, más estabilidad y una conducción placentera para toda la familia, incluso en las vías más exigentes del país.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Suspensión delantera MacPherson independiente</h3>
+              <p>Complementa el tren trasero para un conjunto equilibrado: confort y seguridad en cualquier tipo de terreno.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Consumo eficiente</h3>
+              <p>Mixto: <b>8.1 L/100 km</b> (12.3 km/l) · Ciudad: <b>10.1 L/100 km</b> · Carretera: <b>6.9 L/100 km</b>. Más eficiente que muchos SUV de 7 asientos del segmento.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Tanque de 55 L · hasta ~800 km de autonomía</h3>
+              <p>En carretera, un solo tanque te acerca a los 800 kilómetros de recorrido. Viajes largos sin paradas constantes.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Altura al suelo de 18 cm</h3>
+              <p>Ideal para enfrentar badenes, bordillos y tramos irregulares sin golpear ni dañar la carrocería.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Peso de 1.560 kg</h3>
+              <p>Una estructura que se siente sólida y plantada al asfalto, transmitiendo confianza a velocidad de crucero.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7. Espacio y capacidad -->
+    <div class="acc">
+      <button class="acc-head" type="button" aria-expanded="false">
+        <span class="acc-ico">📐</span> Espacio, dimensiones y carga
+        <span class="acc-arrow">▼</span>
+      </button>
+      <div class="acc-body">
+        <div class="acc-inner">
+          <div class="fgrid">
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>7 asientos en configuración 2 + 3 + 2</h3>
+              <p>Toda la familia, los abuelos o el equipo completo viajan juntos en un solo vehículo.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Maletero de 1.260 litros</h3>
+              <p class="lead">Los SUV de 7 asientos suelen tener maleteros diminutos cuando todas las filas están ocupadas.</p>
+              <p>Con las terceras filas abatidas, el espacio es enorme: maletas de viaje, equipos deportivos, compras del supermercado, carriolas… lo que sea.</p>
+              <p class="meaning"><b>Esto significa que</b> capacidad superior a la de varios SUV premium de 7 asientos, en un vehículo mucho más manejable.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Dimensiones generosas</h3>
+              <p>Largo <b>4.720 mm</b> · Ancho <b>1.900 mm</b> · Alto <b>1.695 mm</b>. Presencia de SUV grande con maniobrabilidad urbana.</p>
+            </article>
+            <article class="fcard v-anim" data-v="full lmt lat">
+              <h3>Distancia entre ejes de 2.745 mm</h3>
+              <p>Una batalla amplia que se traduce en espacio real para las piernas de los pasajeros traseros.</p>
+              <p class="meaning"><b>Esto significa que</b> viajes cómodos incluso para los adultos de las últimas filas.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Comparativa rápida -->
+    <div style="margin-top:44px">
+      <h3 style="margin-bottom:14px;font-weight:700">📊 Comparativa rápida de versiones</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Especificación</th>
+              <th data-col="full">FULL-MT</th>
+              <th data-col="lmt">LIMITED-MT</th>
+              <th data-col="lat">LIMITED-AT</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th>Motor</th><td data-col="full">1.5 Turbo · 160 HP</td><td data-col="lmt">1.5 Turbo · 160 HP</td><td data-col="lat">1.5 Turbo · 160 HP</td></tr>
+            <tr><th>Transmisión</th><td data-col="full">Manual 6MT</td><td data-col="lmt">Manual 6MT</td><td data-col="lat">DCT doble embrague 6DCT</td></tr>
+            <tr><th>Modos de manejo</th><td data-col="full">—</td><td data-col="lmt">—</td><td data-col="lat">Sport / Economic</td></tr>
+            <tr><th>Airbags</th><td data-col="full">2</td><td data-col="lmt">6</td><td data-col="lat">8</td></tr>
+            <tr><th>Neumáticos</th><td data-col="full">235/60 R18</td><td data-col="lmt">255/45 R20</td><td data-col="lat">255/45 R20</td></tr>
+            <tr><th>Sunroof panorámico</th><td data-col="full">—</td><td data-col="lmt">✔</td><td data-col="lat">✔</td></tr>
+            <tr><th>Cámara 360° HD</th><td data-col="full">—</td><td data-col="lmt">✔</td><td data-col="lat">✔</td></tr>
+            <tr><th>Punto ciego + carril</th><td data-col="full">—</td><td data-col="lmt">✔</td><td data-col="lat">✔</td></tr>
+            <tr><th>Ingreso y encendido sin llave</th><td data-col="full">—</td><td data-col="lmt">✔</td><td data-col="lat">✔</td></tr>
+            <tr><th>Sensores de parqueo frontales</th><td data-col="full">—</td><td data-col="lmt">—</td><td data-col="lat">✔</td></tr>
+            <tr><th>Panel 12.3" + multimedia 10.25"</th><td data-col="full">✔</td><td data-col="lmt">✔</td><td data-col="lat">✔</td></tr>
+            <tr><th>Suspensión trasera Multibrazo</th><td data-col="full">✔</td><td data-col="lmt">✔</td><td data-col="lat">✔</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="tbl-note">La columna resaltada corresponde a la versión seleccionada en el explorador. Desliza la tabla horizontalmente en móviles.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PERFILES ===== -->
+<section class="section section-dark" id="perfiles">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow">Encuentra tu versión</span>
+      <h2>¿Para quién es este vehículo?</h2>
+      <p class="sec-sub">Tres configuraciones, un mismo corazón: motor 1.5 Turbo de 160 HP, suspensión Multibrazo y doble pantalla digital de serie. Elige según tu estilo de vida.</p>
+    </div>
+    <div class="profiles-grid">
+      <article class="profile">
+        <div class="profile-ico">🧠</div>
+        <span class="p-ver">FULL-MT</span>
+        <h3>El inteligente con presupuesto ajustado</h3>
+        <p class="p-tag">Familias numerosas y flotillas</p>
+        <p>Necesitas un 7 asientos amplio, confiable y moderno, sin gastar de más. Y aunque es la versión de entrada, aquí no hay versiones “pobres”.</p>
+        <ul class="bonds">
+          <li>Mismo motor 160 HP y suspensión Multibrazo que el tope de gama</li>
+          <li>Toda la seguridad activa: ABS, EBD, EBA, ESC, HAC y TPMS</li>
+          <li>Doble pantalla digital con Apple CarPlay y Android Auto</li>
+        </ul>
+      </article>
+      <article class="profile">
+        <div class="profile-ico">🎯</div>
+        <span class="p-ver">LIMITED-MT</span>
+        <h3>El entusiasta que no quiere sacrificios</h3>
+        <p class="p-tag">Amantes del manejo manual</p>
+        <p>Te encanta la caja manual y el control total, pero valoras el confort y la tecnología de primer nivel. Esta versión lo tiene todo sin pasar a la automática.</p>
+        <ul class="bonds">
+          <li>Sunroof panorámico e ingreso y encendido sin llave</li>
+          <li>Cámara 360° HD, punto ciego y 6 airbags</li>
+          <li>Vidrios One Touch y rines de 20" a dos tonos</li>
+        </ul>
+      </article>
+      <article class="profile">
+        <div class="profile-ico">👑</div>
+        <span class="p-ver">LIMITED-AT</span>
+        <h3>El rey de la comodidad y la seguridad</h3>
+        <p class="p-tag">Conductores urbanos y familias exigentes</p>
+        <p>Enfrentas tráfico diario y priorizas comodidad, seguridad máxima y una conducción relajada. Es la versión tope y no escatima en nada.</p>
+        <ul class="bonds">
+          <li>Transmisión DCT con modos Sport y Economic</li>
+          <li>Máxima protección: 8 airbags y sensores frontales</li>
+          <li>Luces automáticas y el equipamiento más completo de la gama</li>
+        </ul>
+      </article>
+    </div>
+    <p class="profiles-note">🏆 El X70 fue nominado a premios automotrices de “Coche del Año” en Latinoamérica y la familia X70 ha recibido reconocimientos internacionales como vehículo de 7 plazas, con presencia exitosa en América Latina, Asia y África.</p>
+  </div>
+</section>
+
+<!-- ===== RESPALDO ===== -->
+<section class="section section-dark" id="respaldo" style="background:radial-gradient(700px 380px at 12% 0%, rgba(225,6,19,.16), transparent 62%), radial-gradient(560px 340px at 95% 100%, rgba(225,6,19,.1), transparent 60%), #0b0c10">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow">Tranquilidad total</span>
+      <h2>Respaldo y garantía en Ecuador</h2>
+      <p class="sec-sub">Comprar un auto nuevo da miedo por los imprevistos. Con el X70 Sport y el Grupo Roldán, ese miedo desaparece por una década.</p>
+    </div>
+    <div class="support-grid">
+      <article class="support-card">
+        <span class="s-ico">🏢</span>
+        <h3>Grupo Roldán</h3>
+        <p>Distribuidor exclusivo de JETOUR en Ecuador.</p>
+        <ul class="support-list">
+          <li>Más de 50 años de trayectoria automotriz</li>
+          <li>27 concesionarios a nivel nacional</li>
+          <li>Más de 20.000 vehículos entregados</li>
+          <li>Plaza Tumbaco, nuestro emblema</li>
+        </ul>
+      </article>
+      <article class="support-card">
+        <span class="s-ico">🤝</span>
+        <h3>Grupo Palacios</h3>
+        <p>Aliado estratégico de la marca en el centro del país.</p>
+        <ul class="support-list">
+          <li>48 años de experiencia</li>
+          <li>Distribuidor autorizado en Ambato</li>
+          <li>Presencia en Latacunga</li>
+        </ul>
+      </article>
+      <article class="support-card">
+        <span class="s-ico">🛠️</span>
+        <h3>Garantía 10 años / 120.000 km</h3>
+        <p>Más del triple de la cobertura tradicional del mercado. Si algo sale mal con el motor, la transmisión o componentes clave, la marca responde.</p>
+        <ul class="support-list">
+          <li>10 años de tranquilidad para tu familia</li>
+          <li>Declaración de confianza en la ingeniería</li>
+        </ul>
+      </article>
+      <article class="support-card">
+        <span class="s-ico">🌎</span>
+        <h3>Respaldo global</h3>
+        <p>Jetour se mantiene entre las principales marcas por volumen de ventas en Ecuador, Perú, Uruguay, Chile y Egipto.</p>
+        <ul class="support-list">
+          <li>El X70 comparte plataforma con un SUV que ha vendido millones de unidades</li>
+          <li>Probado en climas y terrenos extremos de tres continentes</li>
+        </ul>
+      </article>
+    </div>
+    <div class="cta-band">
+      <h3>El lujo, la tecnología y la seguridad ya no tienen que costar una fortuna</h3>
+      <p>El Jetour X70 Sport entendió que las familias modernas merecen lo mejor, sin compromisos.</p>
+      <a class="btn btn-red" href="#contacto">Encuentra tu concesionario</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer" id="contacto">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="f-brand">
+        <div>
+          <span class="brand-mark">JETOUR</span>
+          <span class="brand-model" style="font-family:'Saira Condensed',sans-serif;font-weight:800;font-size:1.5rem;color:var(--red)"> X70 SPORT</span>
+        </div>
+        <p>Grupo Roldán — Distribuidor exclusivo de JETOUR en Ecuador. Plaza Tumbaco. Más de 50 años moviendo familias con respaldo real.</p>
+      </div>
+      <div class="f-brands">
+        <span>JETOUR</span><span>JAC</span><span>SANY</span><span>YTO</span><span>Karry</span><span>Textron</span><span>Zongshen</span>
+      </div>
+    </div>
+    <hr class="f-line">
+    <p class="f-legal">Información basada en la ficha técnica oficial del Jetour X70 Sport para Ecuador. Las especificaciones, equipamiento y colores pueden variar según versión y mercado. Los consumos corresponden a cifras reportadas por el fabricante y pueden variar según condiciones de manejo. © 2025 Grupo Roldán · Grupo Palacios (Ambato y Latacunga). Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  /* ===== Header shadow ===== */
+  var header = document.getElementById('siteHeader');
+  window.addEventListener('scroll', function(){
+    header.classList.toggle('scrolled', window.scrollY > 8);
+  }, {passive:true});
+
+  /* ===== Accordions ===== */
+  var accs = document.querySelectorAll('.acc');
+  accs.forEach(function(acc){
+    var head = acc.querySelector('.acc-head');
+    var body = acc.querySelector('.acc-body');
+    head.addEventListener('click', function(){
+      var isOpen = acc.classList.contains('open');
+      if(isOpen){
+        body.style.maxHeight = '0px';
+        acc.classList.remove('open');
+        head.setAttribute('aria-expanded','false');
+      } else {
+        acc.classList.add('open');
+        body.style.maxHeight = body.scrollHeight + 'px';
+        head.setAttribute('aria-expanded','true');
+      }
+    });
+  });
+  /* Init open accordions */
+  document.querySelectorAll('.acc.open .acc-body').forEach(function(b){
+    b.style.maxHeight = b.scrollHeight + 'px';
+  });
+  window.addEventListener('resize', function(){
+    document.querySelectorAll('.acc.open .acc-body').forEach(function(b){
+      b.style.maxHeight = b.scrollHeight + 'px';
+    });
+  });
+
+  /* ===== Version selector ===== */
+  var vButtons = document.querySelectorAll('.vtab-btn[data-version]');
+  var vEls = document.querySelectorAll('[data-v]');
+  var colCells = document.querySelectorAll('[data-col]');
+
+  function setVersion(v){
+    vButtons.forEach(function(b){
+      var on = b.getAttribute('data-version') === v;
+      b.classList.toggle('active', on);
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+    vEls.forEach(function(el){
+      var list = (el.getAttribute('data-v') || '').split(/\s+/);
+      var on = list.indexOf(v) !== -1 || list.indexOf('all') !== -1;
+      el.classList.toggle('version-on', on);
+      el.classList.toggle('version-off', !on);
+    });
+    colCells.forEach(function(c){
+      c.classList.toggle('col-on', c.getAttribute('data-col') === v);
+    });
+    /* keep open accordion heights correct after opacity changes */
+    document.querySelectorAll('.acc.open .acc-body').forEach(function(b){
+      b.style.maxHeight = b.scrollHeight + 'px';
+    });
+  }
+
+  vButtons.forEach(function(b){
+    b.addEventListener('click', function(){
+      setVersion(b.getAttribute('data-version'));
+    });
+  });
+
+  /* Default: tope de gama */
+  setVersion('lat');
+})();
+</script>
+</body>
+</html>
